@@ -7,8 +7,7 @@ const ItemDetail = ({ item }) => {
       <p className="item-detail-description">{item.description}</p>
       <p className="item-detail-price">${item.price}</p>
       <div className="item-detail-actions">
-        {}
-        <p>Boton para agregar al carrito</p>
+        <p>Botones para agregar al carrito</p>
       </div>
     </div>
   );
